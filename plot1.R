@@ -1,5 +1,5 @@
-dataSet <- "./data/household_power_consumption.txt"
-data <- read.table(dataSet, header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
+DataSet <- "./data/household_power_consumption.txt"
+data <- read.table(DataSet, header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
 SubSet <- data[data$Date %in% c("1/2/2007","2/2/2007") ,]
 
 #str(SubSet)
